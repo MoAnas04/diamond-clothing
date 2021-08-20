@@ -5,6 +5,7 @@ import { Switch, Route } from "react-router-dom";
 
 import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.component";
+import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 import Header from "./components/header/header.component";
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <Switch>
         <Route exact component={HomePage} path="/" />
         <Route path="/shop" component={ShopPage} />
+        <Route path="/signin" component={SignInAndSignUpPage} />
+
         {/* exact takes true or false and switch make sure that our browser displays only route which matches and nothing else*/}
       </Switch>
     </div>
