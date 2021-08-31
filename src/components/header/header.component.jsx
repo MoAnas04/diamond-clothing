@@ -1,4 +1,4 @@
-import react from 'react';
+// import react from 'react';
 import './header.styles.scss';
 import { Link } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../assets/diamond.svg';
