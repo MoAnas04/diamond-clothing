@@ -39,7 +39,7 @@ class SignIn extends React.Component {
         <h2>I already have an account</h2>
         <span>Sign in with your email address and password</span>
 
-        <from onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit}>
           <FormInput
             type="email"
             name="email"
@@ -67,7 +67,7 @@ class SignIn extends React.Component {
               Google Sign In
             </CustomButton>
           </div>
-        </from>
+        </form>
       </div>
     );
   }
